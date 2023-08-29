@@ -1,7 +1,18 @@
-.cat{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: flex-end;
-    background: #c0c0c0;
+.dropdownMenu {
+    position: fixed;
+    top: 0;
+    right: -40rem;
+    width: 40rem;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease-in-out;
+}
+
+.dropdownMenu.open {
+    right: 0;
+}
+
+.dropdown-content {
+    padding: 16px;
 }

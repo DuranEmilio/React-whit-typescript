@@ -1,12 +1,14 @@
 'use client';
 
-import styles from './page.module.css'
-import Categories from '../components/Categories'
+import MenuController from '../components/MenuController'
 
-export default function Home() {
+function Home() {
   return (
     <div>
-      <Categories />
+      <h1>TODA LA PAGINA RESTANTE</h1>
+      <MenuController />
     </div>
   )
 }
+
+export default Home;
