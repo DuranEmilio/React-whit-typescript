@@ -4,4 +4,10 @@ interface Item {
     color: string;
 }
 
-export type { Item }
+interface ColorPickerProps {
+    defaultColor: string;
+    avalibleColors: string[];
+    onSelectColor: (color: string) => void;
+}
+
+export type { Item, ColorPickerProps };

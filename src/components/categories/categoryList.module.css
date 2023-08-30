@@ -1,0 +1,39 @@
+.list {
+    width: max-content;
+    display: flex;
+    gap: 8px;
+    border-bottom: 1px solid #F2F3F6;
+    padding: 8px 16px;
+    align-items: center;
+}
+
+.ResumeCategory {
+    display: flex;
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list p {
+    color: #333B48;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+}
+
+.ResumeCategory div {
+    color: var(--yimi-day-bg-light, #FFF);
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+
+.drag{
+    display: flex;
+    justify-self: flex-end;
+}

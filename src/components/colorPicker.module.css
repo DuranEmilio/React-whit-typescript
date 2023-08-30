@@ -1,0 +1,15 @@
+.colorPicker {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.colorModal{
+    z-index: 10;
+}
+
+.avalibleColors {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}

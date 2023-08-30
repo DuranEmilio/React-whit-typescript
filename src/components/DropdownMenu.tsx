@@ -15,6 +15,6 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ isOpen, onClose, children }
       </div>
     </div>
   );
-};
+};  
 
 export default DropdownMenu;

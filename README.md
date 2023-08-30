@@ -8,7 +8,7 @@ Objetibos-----------------------------------------------------------------------
 🔔Semantica correcta 
 --------------------------------------------------------------------------------------------------------------------------------
 🔔Uso de useContext para los estados globales de la aplicación
-🔔Implementacion de los hooks de react [UseEffect, UseContext, UseContext]
+🔔Implementacion de los hooks de react [UseEffect, UseState, UseContext]
 --------------------------------------------------------------------------------------------------------------------------------
 🔔Subir datos a Firebase en formato de json
 🔔Leer datos de firebase

@@ -1,0 +1,23 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 16px;
+}
+
+.textInputs {
+    display: flex;
+    padding: var(--spacing-s-4, 16px) 10px var(--spacing-s-4, 16px) 14px;
+    align-items: center;
+    gap: var(--spacing-s-0, 0px);
+    align-self: stretch;
+    border-radius: 10px;
+    border: 2px solid var(--yimi-day-input-border, #D8DEE6);
+    background: var(--yimi-day-input-bg, #FFF);
+    width: 380px;
+    align-self: center;
+}
+
+.colorPiker {
+    display: flex;
+}
